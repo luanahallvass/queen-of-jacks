@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.3/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Baralhos</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header-1">
+            <a href="#" class="logo"><i class="fas fa-diamond"></i> Queen of Jacks </a>
+
+
+            <form action="" class="search-form">
+                <input type="search" placeholder="Procurar..." id="search-box">
+                <label for="search-box" class="fas fa-search"></label>
+            </form>
+            <div class="icons">
+                <div id="search-btn" class="fas fa-search"></div>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <div id="login-btn" class="fas fa-user"></div>
+            </div>
+        </div>
+        <div class="header-2">
+            <nav class="navbar">
+                <a href="#home">Home</a>
+                <a href="#featured">Baralhos</a>
+                <a href="#arrivals">Chegadas</a>
+                <a href="#reviews">Avaliações</a>
+                <a href="#blogs">Contato</a>
+            </nav>
+        </div>
+    </header>
+
+    <nav class="bottom-navbar">
+        <a href="#home" class="fas fa-home"></a>
+        <a href="#featured" class="fas fa-list"></a>
+        <a href="#arrivals" class="fas fa-tags"></a>
+        <a href="#reviews" class="fas fa-comments"></a>
+        <a href="#blogs" class="fas fa-blog"></a>
+    </nav>
+
+<div class="login-form-container">
+
+    <div id="close-login-btn" class="fas fa-times"></div>
+
+    <form action="">
+        <h3>Login</h3>
+        <span>Nome</span>
+        <input type="email" class="box" placeholder="Entre com seu email" id="">
+        <span>Senha</span>
+        <input type="password" class="box" placeholder="Senha" id="">
+        <div class="ckeckbox">
+            <input type="checkbox" id="remeber-me">
+            <label for="remeber-me"> Lembrar-me </label>
+        </div>
+        <input type="submit" value="sign in" class="btn">
+        <p>Esqueci a senha ? <a href="#">Click Aqui</a></p>
+        <p>Não tenho conta  ? <a href="#">Criar Conta</a></p>
+    </form>
+</div>
+
+<section class="home" id="home">
+     <div class="row">
+        <div class="content">
+            <h3>Baralhos 25% off</h3>
+            <p><i>"mantenha a atenção no jogo." </i></p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+        <div class="swiper books-slider">
+            <div class="swiper-wrapper">
+            <a href="#" class="swiper-slide"><img src="livros-1/Bode.png" alt=""></a>
+            <a href="#" class="swiper-slide"><img src="livros-1/Dragon.png" alt=""></a>
+            <a href="#" class="swiper-slide"><img src="livros-1/Texas.png" alt=""></a>
+            <a href="#" class="swiper-slide"><img src="livros-1/Espadas.png" alt=""></a>
+       
+            </div>
+            <img src="" class="stand" alt="">
+        </div>
+    </div>
+
+</section>
+
+<section class="icons-container">
+
+    <div class="icons">
+        <i class="fas fa-plane"></i>
+        <div class="content">
+            <h3>Frete grátis</h3>
+            <p>Acima de $50</p>
+        </div>
+    </div>
+
+    
+    <div class="icons">
+        <i class="fas fa-lock"></i>
+        <div class="content">
+            <h3 >Pagamento seguro</h3>
+            <p>100% pagamento seguro</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-redo-alt"></i>
+        <div class="content">
+            <h3 >Devolução</h3>
+            <p>100% Aprovada</p>
+        </div>
+    </div>
+
+    <!--<div class="icons">
+        <i class="fas fa-headset"></i>
+        <div class="content">
+            <h3 >24/7 support</h3>
+            <p>call us anytime</p>
+        </div>
+    </div>-->
+
+</section>
+
+<section class="featured" id="featured">
+    <h1 class="heading"><span>Baralhos</span> </h1>
+
+    <div class="swiper featured-slider">
+
+            <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="livros-2/baralhocigano.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Baralho cigano</h3>
+                    <div class="price">$79.99 <span>$99.99</span></div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="livros-2/cyberpunkbicycle.webp" alt="">
+                </div>
+                <div class="content">
+                    <h3>Baralho cyberpunk bicycle</h3>
+                    <div class="price">$59.99 <span>$89.99</span></div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="livros-2/bicyclehellokitty.webp" alt="">
+                </div>
+                <div class="content">
+                    <h3>baralho hello kitty bicycle</h3>
+                    <div class="price">$100.00 <span>$149.99</span></div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="livros-2/kingstar.webp" alt="">
+                </div>
+                <div class="content">
+                    <h3>Baralho kingstar</h3>
+                    <div class="price">$39.99 <span>$59.99</span></div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="livros-2/bicycle.webp" alt="">
+                </div>
+                <div class="content">
+                    <h3>Baralho bicycle clássico</h3>
+                    <div class="price">$24.99 <span>$35.99</span></div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="livros-2/wicked.webp" alt="">
+                </div>
+                <div class="content">
+                    <h3>Baralho Wicked</h3>
+                    <div class="price">$59.99 <span>$79.99</span></div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="livros-2/copagpadrão.webp" alt="">
+                </div>
+                <div class="content">
+                    <h3>Baralho Copag padrão</h3>
+                    <div class="price">$15.99 <span>$20.99</span></div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="livros-2/harrypotter.webp" alt="">
+                </div>
+                <div class="content">
+                    <h3>Baralho Harry Potter</h3>
+                    <div class="price">$24.99 <span>$54.99</span></div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="livros-2/copagkit.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Kit baralho - Copag</h3>
+                    <div class="price">$70.00 <span>$99.99</span></div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="livros-2/neptune.webp" alt="">
+                </div>
+                <div class="content">
+                    <h3>Baralho Neptune</h3>
+                    <div class="price">$29.99 <span>$39.99</span></div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+</div>
+</section>
+
+<section class="newsletter">
+    <form action="">
+        <h3>Contatar para novos começos</h3>
+        <input type="email" name="" placeholder="Email" id="" class="box">
+        <input type="submit" value="Enviar" class="btn">
+    </form>
+</section>
+
+<section class="arrivals" id="arrivals">
+    <h1 class="heading"> <span>Chegadas</span> </h1>
+
+    <div class="swiper arrivals-slider">
+
+        <div class="swiper-wrapper">
+
+
+            <a href="#" class="swiper-slide box">
+                <img src="Livro-3/Alice.jpg" alt="">
+            <div class="content">
+                <h3>Baralho Alice</h3>
+                <div class="price">$49.90 <span>$74.99</span></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+            </a>
+            <a href="#" class="swiper-slide box">
+                <img src="Livro-3/Emerald.jpg" alt="">
+            <div class="content">
+                <h3>Baralho Esmeralda</h3>
+                <div class="price">$29.90 <span>$39.99</span></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+            </a>
+            <a href="#" class="swiper-slide box">
+                <img src="Livro-3/Raibow.jpg" alt="">
+            <div class="content">
+                <h3>Baralho Holográfico</h3>
+                <div class="price">$70.90 <span>$99.99</span></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+            </a>
+            <a href="#" class="swiper-slide box">
+                <img src="Livro-3/Shadow.jpg" alt="">
+            <div class="content">
+                <h3>Barallho das sombras</h3>
+                <div class="price">$70.90 <span>$99.99</span></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+            </a>
+        </div>
+    </div>
+    <div class="swiper arrivals-slider">
+
+        <div class="swiper-wrapper">
+
+
+            <a href="#" class="swiper-slide box">
+                <img src="Livro-4/Dune.jpg" alt="">
+            <div class="content">
+                <h3>Baralho Duna</h3>
+                <div class="price">$79.90 <span>$120.00</span></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+            </a>
+            <a href="#" class="swiper-slide box">
+                <img src="Livro-4/GreenNational.jpg" alt="">
+            <div class="content">
+                <h3>Baralho Verde nacional</h3>
+                <div class="price">$29.90 <span>$39.99</span></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+            </a>
+            <a href="#" class="swiper-slide box">
+                <img src="Livro-4/Muralis.jpg" alt="">
+            <div class="content">
+                <h3>Baralho Muralis</h3>
+                <div class="price">$39.90 <span>$49.99</span></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+            </a>
+            <a href="#" class="swiper-slide box">
+                <img src="Livro-4/USA.jpg" alt="">
+            <div class="content">
+                <h3>Baralho USA</h3>
+                <div class="price">$45.90 <span>$59.99</span></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+            </a>
+        </div>
+    </div>
+</section>
+
+
+<section class="deal">
+    <div class="content">
+        <h3>Grande dia descontos</h3>
+        <h1>Baralhos com 50% off</h1>
+        <p>No site Queen of Jacks você encontra milhares de peças de cartas, para os amantes colecionadores,
+        para os entusiasmados jogadores ou para os habilidosos do Cardistry, no melhor preço com 100% de satisfação!
+        </p>
+        <a href="#" class="btn">shop now</a>
+    </div>
+    <div class="image">
+        <img src="img/fundo4.png" alt="">
+    </div>
+</section>
+
+<section class="reviews" id="reviews">
+    <h1 class="heading"><span>Avaliações dos clientes</span></h1>
+    <div class="swiper reviews-slider">
+        <div class="swiper-wrapper">
+
+
+            <div class="swiper-slide box">
+                <img src="img/pessoa.jpg" alt="">
+                <h3>Dahlia_stone</h3>
+                <p>Maravilhoso! Sem duvidas o melhor site de impotações de baralhos!</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <img src="img/pessoa.jpg" alt="">
+                <h3>Rizzen</h3>
+                <p>Melhores kits de cartas para Cardistry! Ajudou muito no meu progresso</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <img src="img/pessoa.jpg" alt="">
+                <h3>Mirien</h3>
+                <p>Definitivamente o melhor site para a compras cartas, multiplas marcas disponiveis,
+                sempre com ótima qualidade, chegou antes da data prevista!</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <img src="img/pessoa.jpg" alt="">
+                <h3>Italiman</h3>
+                <p> Trabalho como mágico e as cartas profissionais para essa função são ótimas! 
+                recomendo com certeza.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <img src="img/pessoa.jpg" alt="">
+                <h3>Marcosww</h3>
+                <p>Comprei o kit com desconto e ainda ganhei 10% off por ser minha primeira compra, comprarei novamente.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <img src="img/pessoa.jpg" alt="">
+                <h3>Silas_poker</h3>
+                <p>Como clássico jogador de Poker, admiro o site, muito intuitivo. Consegui 
+                comprar um baralho e na mesma semana usa-lo em um campeonato, entrega muito atenciosa.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="blogs" id="blogs">
+    <h1 class="heading"> <span>Conexões </span> </h1>
+
+    <div class="swiper blogs-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="img-2/img1.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Conheça nossas marcas parceiras</h3>
+                    <p>saiba mais</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="img-2/img2.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Baralhos para Cardistry</h3>
+                    <p>Encontre as cartas perfeitas para as manobras do Cardistry.</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="img-2/img3.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Cartas para poker</h3>
+                    <p>Enconte aqui as cartas para jogos.</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="img-2/img4.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Cartas para Leituras</h3>
+                    <p>Enconte aqui cartas para leituras, baralhos de Tarot e mais.</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section class="footer">
+    <div class="box-container">
+
+        <div class="box">
+            <h3>Localização</h3>
+            <a href="#"><i class="fas fa-map-marker-alt"></i> India</a>
+            <a href="#"><i class="fas fa-map-marker-alt"></i> Usa</a>
+            <a href="#"><i class="fas fa-map-marker-alt"></i> Russa</a>
+            <a href="#"><i class="fas fa-map-marker-alt"></i> Brazil</a>
+            <a href="#"><i class="fas fa-map-marker-alt"></i> Canada</a>
+            <img src="img/map.jpg" class="map" alt="">
+        </div>
+
+        <div class="box">
+            <h3>Menu</h3>
+            <a href="#"><i class="fas fa-arrow-right"></i> Home</a>
+            <a href="#"><i class="fas fa-arrow-right"></i> Baralhos</a>
+            <a href="#"><i class="fas fa-arrow-right"></i> Chegadas</a>
+            <a href="#"><i class="fas fa-arrow-right"></i> Avaliações</a>
+            <a href="#"><i class="fas fa-arrow-right"></i> Contato</a>
+        </div>
+
+        <!--<div class="box">
+            <h3>Extra</h3>
+            <a href="#"><i class="fas fa-arrow-right"></i> account info</a>
+            <a href="#"><i class="fas fa-arrow-right"></i> ordered items</a>
+            <a href="#"><i class="fas fa-arrow-right"></i> privacy policy</a>
+            <a href="#"><i class="fas fa-arrow-right"></i> payment method</a>
+            <a href="#"><i class="fas fa-arrow-right"></i> our services</a>
+        </div>-->
+
+        <div class="box">
+            <h3>Contatos</h3>
+            <a href="#"><i class="fas fa-phone"></i> +123-456-7890</a>
+            <a href="#"><i class="fas fa-phone"></i> +111-222-333</a>
+            <a href="#"><i class="fas fa-envelope"></i> hallvass@gmail.com</a>
+        </div>
+    </div>
+    
+    <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+        <a href="#" class="fab fa-pinterest"></a>
+    </div>
+    
+    <div class="credit">created by <span>Luana Web Designer</span>| all rights reserved |</div>
+    
+</section>
+
+<div class="loader-container">
+    <img src="img/load-3.gif" alt="">
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
